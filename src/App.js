@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px", textAlign: "center" }}>
-      <h1>Здравствуй, путник! {user?.first_name || "гость"}!</h1>
+      <h1>Здравствуй, Путник! {user?.first_name || "гость"}!</h1>
       <p>Добро пожаловать в Telegram Web App 🚀</p>
     </div>
   );
